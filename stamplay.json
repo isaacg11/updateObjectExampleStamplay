@@ -1,0 +1,10 @@
+{
+  "appId": "updatecustomobjecttutorial",
+  "apiKey": "cbf993bd473bce9427e47d2610c4f9768b696b64a7340f2675fa2357cebf5001",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
