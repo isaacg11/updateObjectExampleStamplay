@@ -14,18 +14,18 @@
     </div>
   </nav>
   <!--OBJECT OUTPUT-->
-  <div id="body">
   <ul id="objectOutput" class="collection container z-depth-1">
       <li class="collection-item center header"><b>Current Object Data</b>
-      <li class="collection-item category"><b>Display Name:</b>
+      <li class="collection-item category"><b>Description:</b>
       <span id="objectOutputName"></span></li>
-      <li class="collection-item category"><b>Dt_Created: </b>
+      <li class="collection-item category"><b>Dt_Updated: </b>
       <span id="objectOutputDate"></span></li>
       <li class="collection-item category"><b>ID: </b>
       <span id="objectOutputID"></span></li>
   </ul>
   <br>
-<!--UPDATE OBJECT-->
+  <br>
+<!--UPDATE OBJECT SECTION-->
   <div id="createSection" class="row container z-depth-1">
     <form class="col s12">
       <div class='row'>
@@ -33,26 +33,17 @@
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">New Display Name...</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">New Date Created...</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">New ID...</label>
+          <input  
+          id="name" 
+          type="text" 
+          class="validate">
+          <label for="last_name">New Description...</label>
         </div>
       </div>
       <div class="row center">
         <div class="input-field col s12">
           <a 
-          onclick="createObject()" 
+          onclick="updateObject()" 
           id="btn" 
           class="waves-effect waves-light btn-large">
           <i class="fa fa-pencil-square-o right"></i>Update Object</a>
@@ -62,7 +53,6 @@
   </div>
 </div>
 <br>
-<div>
 
 
 <!--SDK-->
