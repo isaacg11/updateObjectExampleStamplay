@@ -1,5 +1,9 @@
 body, html {
 	font-family: "Roboto";
+	min-height: 100vh;
+	min-width: 100vw;
+	position: cover;
+	background-color: #EEEEEE;
 }
 
 #navbar{
@@ -13,6 +17,7 @@ body, html {
 }
 #createSection{
 	width: 40%;
+	background-color: #FFFFFF;
 }
 #btn{
 	background-color: #7A7F99;
@@ -35,3 +40,26 @@ body, html {
 }#objectOutputID{
 	color: #414b82;
 }
+#input{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+  /* label color */
+   .input-field label {
+     color: #ffd700;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #ffd700;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #ffd700;
+     box-shadow: 0 1px 0 0 #ffd700;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #ffd700;
+     box-shadow: 0 1px 0 0 #ffd700;
+   }
+   

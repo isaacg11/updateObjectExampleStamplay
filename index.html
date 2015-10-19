@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SDK Sign Up Tutorial</title>
+	<title>SDK Update Object Tutorial</title>
 	<link rel="stylesheet" type="text/css" href="public/css/materialize.css">
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -9,7 +9,7 @@
 <body>
 <!--NAVBAR-->
   <nav>
-    <div id="navbar" class="nav-wrapper center">
+    <div id="navbar" class="nav-wrapper center z-depth-2">
       <img id="logo" src="public/images/stamplay_logo.png"/>
     </div>
   </nav>
@@ -32,12 +32,12 @@
         <p class="center header"><b>Update Object Data</b></p>
       </div>
       <div class="row">
-        <div class="input-field col s12">
-          <input  
+        <div id="input" class="input-field col s12">
+          <input
+          placeholder="New Description"  
           id="name" 
           type="text" 
           class="validate">
-          <label for="last_name">New Description...</label>
         </div>
       </div>
       <div class="row center">
