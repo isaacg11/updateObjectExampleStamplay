@@ -11,3 +11,13 @@ body, html {
 	margin-top: 5px;
 
 }
+#createSection{
+	width: 40%;
+}
+#btn{
+	background-color: #414b82;
+}
+#objectOutput{
+	width: 40%;
+	margin-top: 50px;
+}

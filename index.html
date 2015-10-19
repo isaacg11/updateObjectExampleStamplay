@@ -13,7 +13,55 @@
       <img id="logo" src="public/images/stamplay_logo.png"/>
     </div>
   </nav>
+  <!--OBJECT OUTPUT-->
+  <ul id="objectOutput" class="collection container z-depth-2">
+      <li class="collection-item center"><b>Current Object Data</b>
+      <span id="objectOutputName"></span></li>
+      <li class="collection-item"><b>Object Name:</b>
+      <span id="objectOutputName"></span></li>
+      <li class="collection-item"><b>Dt_Created: </b>
+      <span id="objectOutputDate"></span></li>
+      <li class="collection-item"><b>ID: </b>
+      <span id="objectOutputID"></span></li>
+  </ul>
+  <br>
 <!--UPDATE OBJECT-->
+  <div id="createSection" class="row container z-depth-3">
+    <form class="col s12">
+      <div class='row'>
+        <p class="center"><b>Update Object Data</b></p>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">New Display Name...</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">New Date Created...</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">New ID...</label>
+        </div>
+      </div>
+      <div class="row center">
+        <div class="input-field col s12">
+          <a 
+          onclick="createObject()" 
+          id="btn" 
+          class="waves-effect waves-light btn-large">
+          <i class="fa fa-pencil-square-o right"></i>Update Object</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<br>
 
 
 <!--SDK-->
